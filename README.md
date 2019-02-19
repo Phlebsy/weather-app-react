@@ -1,6 +1,6 @@
 # Interacting with the application
 
-The driving functionality of this application is through the search bar. Enter a city name along with a state name, country name, US state abbreviation or ISO-3166 3-character country abbreviation found here: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes separated by a comma(ie: 'New York, NY' or 'London, GBR' and submit by pressing 'Go' to load the weather forecasts. Only the top ~20 populated country codes are supported at this time.<br>
+The driving functionality of this application is through the search bar. Enter a city name along with a state name, country name, US state abbreviation or ISO-3166 3-character country abbreviation found here: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes separated by a comma(ie: 'New York, NY' or 'Moscow, RUS' and submit by pressing 'Go' to load the weather forecasts. Only the top ~20 populated country codes are supported at this time.<br>
 
 From there, you can choose individual tri-hourly forecasts for the current day(provided there are any left) by clicking on the items within the first carousel, and change the day's worth of forecasts by clicking on the items within the second carousel.
 
