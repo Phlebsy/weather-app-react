@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches the snapshot 1`] = `
+<Provider>
+  <ContextConsumer>
+    <Component />
+  </ContextConsumer>
+</Provider>
+`;

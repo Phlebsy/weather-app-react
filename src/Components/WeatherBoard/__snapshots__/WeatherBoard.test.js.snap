@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherBoard /> matches the snapshot 1`] = `
+<div
+  className="weatherboard container px-0"
+>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <div
+      className="d-flex align-items-center justify-content-center"
+    >
+      <div
+        className="d-flex mx-4 align-items-center justify-content-center"
+        style={
+          Object {
+            "flexDirection": "column",
+          }
+        }
+      >
+        <i
+          className="my-3 fas fa-sun"
+          style={
+            Object {
+              "fontSize": "5rem",
+            }
+          }
+        />
+        <p
+          className="text-capitalize"
+        >
+          clear sky
+        </p>
+      </div>
+    </div>
+    <div
+      className="mx-4"
+    >
+      <p
+        className="text-danger text-center"
+      >
+        39
+        °
+      </p>
+      <p
+        className="text-center"
+        style={
+          Object {
+            "fontSize": "2rem",
+          }
+        }
+      >
+        38
+        °F
+      </p>
+      <p
+        className="text-primary text-center"
+      >
+        37
+        °
+      </p>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-columns justify-content-center"
+  >
+    <div
+      className="mx-3"
+    >
+      4.1
+       
+      MPH Wind
+    </div>
+    <div
+      className="mx-3"
+    >
+      60
+      % Humidity
+    </div>
+  </div>
+</div>
+`;

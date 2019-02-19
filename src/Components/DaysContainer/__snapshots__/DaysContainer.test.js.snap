@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DaysContainer /> matches the snapshot 1`] = `
+<ReactOwlCarousel
+  className="owl-theme"
+  dots={false}
+  items={3}
+  margin={10}
+  nav={true}
+  slideBy={3}
+>
+  <DaysCard
+    day={
+      Object {
+        "avg": 276.25,
+        "fullDay": "Tue - Dec 4",
+        "weather": "clear sky",
+      }
+    }
+    key="day-0"
+    onClick={[Function]}
+  />
+  <DaysCard
+    day={
+      Object {
+        "avg": 272.754625,
+        "fullDay": "Wed - Dec 5",
+        "weather": "clear sky",
+      }
+    }
+    key="day-1"
+    onClick={[Function]}
+  />
+</ReactOwlCarousel>
+`;

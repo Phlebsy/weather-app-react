@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ForecastsContainer /> matches the snapshot 1`] = `
+<ReactOwlCarousel
+  className="owl-theme"
+  dots={false}
+  id="hourly"
+  items={4}
+  margin={10}
+  nav={true}
+  slideBy={4}
+>
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 0,
+        },
+        "dt": 1543924800,
+        "dt_txt": "2018-12-04 12:00:00",
+        "main": Object {
+          "grnd_level": 1023.25,
+          "humidity": 93,
+          "pressure": 1023.25,
+          "sea_level": 1026.75,
+          "temp": 275,
+          "temp_kf": 0.31,
+          "temp_max": 275,
+          "temp_min": 274.687,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "n",
+        },
+        "weather": Array [
+          Object {
+            "description": "clear sky",
+            "icon": "01n",
+            "id": 800,
+            "main": "Clear",
+          },
+        ],
+        "wind": Object {
+          "deg": 337.504,
+          "speed": 4.13,
+        },
+      }
+    }
+    key="forecast-0"
+    onClick={[Function]}
+  />
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 0,
+        },
+        "dt": 1543935600,
+        "dt_txt": "2018-12-04 15:00:00",
+        "main": Object {
+          "grnd_level": 1025.11,
+          "humidity": 87,
+          "pressure": 1025.11,
+          "sea_level": 1028.7,
+          "temp": 276.26,
+          "temp_kf": 0.23,
+          "temp_max": 276.26,
+          "temp_min": 276.022,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "d",
+        },
+        "weather": Array [
+          Object {
+            "description": "clear sky",
+            "icon": "01d",
+            "id": 800,
+            "main": "Clear",
+          },
+        ],
+        "wind": Object {
+          "deg": 328.5,
+          "speed": 3.91,
+        },
+      }
+    }
+    key="forecast-1"
+    onClick={[Function]}
+  />
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 12,
+        },
+        "dt": 1543946400,
+        "dt_txt": "2018-12-04 18:00:00",
+        "main": Object {
+          "grnd_level": 1024.74,
+          "humidity": 81,
+          "pressure": 1024.74,
+          "sea_level": 1028.24,
+          "temp": 277.27,
+          "temp_kf": 0.16,
+          "temp_max": 277.27,
+          "temp_min": 277.114,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "d",
+        },
+        "weather": Array [
+          Object {
+            "description": "few clouds",
+            "icon": "02d",
+            "id": 801,
+            "main": "Clouds",
+          },
+        ],
+        "wind": Object {
+          "deg": 329.001,
+          "speed": 4.36,
+        },
+      }
+    }
+    key="forecast-2"
+    onClick={[Function]}
+  />
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 0,
+        },
+        "dt": 1543957200,
+        "dt_txt": "2018-12-04 21:00:00",
+        "main": Object {
+          "grnd_level": 1025.24,
+          "humidity": 79,
+          "pressure": 1025.24,
+          "sea_level": 1028.77,
+          "temp": 276.72,
+          "temp_kf": 0.08,
+          "temp_max": 276.72,
+          "temp_min": 276.644,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "d",
+        },
+        "weather": Array [
+          Object {
+            "description": "clear sky",
+            "icon": "01d",
+            "id": 800,
+            "main": "Clear",
+          },
+        ],
+        "wind": Object {
+          "deg": 336.004,
+          "speed": 3.59,
+        },
+      }
+    }
+    key="forecast-3"
+    onClick={[Function]}
+  />
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 0,
+        },
+        "dt": 1543968000,
+        "dt_txt": "2018-12-05 00:00:00",
+        "main": Object {
+          "grnd_level": 1027.3,
+          "humidity": 85,
+          "pressure": 1027.3,
+          "sea_level": 1030.94,
+          "temp": 274.56,
+          "temp_kf": 0,
+          "temp_max": 274.56,
+          "temp_min": 274.56,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "n",
+        },
+        "weather": Array [
+          Object {
+            "description": "clear sky",
+            "icon": "01n",
+            "id": 800,
+            "main": "Clear",
+          },
+        ],
+        "wind": Object {
+          "deg": 357.501,
+          "speed": 3.31,
+        },
+      }
+    }
+    key="forecast-4"
+    onClick={[Function]}
+  />
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 0,
+        },
+        "dt": 1543978800,
+        "dt_txt": "2018-12-05 03:00:00",
+        "main": Object {
+          "grnd_level": 1029.28,
+          "humidity": 94,
+          "pressure": 1029.28,
+          "sea_level": 1032.83,
+          "temp": 272.795,
+          "temp_kf": 0,
+          "temp_max": 272.795,
+          "temp_min": 272.795,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "n",
+        },
+        "weather": Array [
+          Object {
+            "description": "clear sky",
+            "icon": "01n",
+            "id": 800,
+            "main": "Clear",
+          },
+        ],
+        "wind": Object {
+          "deg": 12.0055,
+          "speed": 3.01,
+        },
+      }
+    }
+    key="forecast-5"
+    onClick={[Function]}
+  />
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 0,
+        },
+        "dt": 1543989600,
+        "dt_txt": "2018-12-05 06:00:00",
+        "main": Object {
+          "grnd_level": 1029.55,
+          "humidity": 100,
+          "pressure": 1029.55,
+          "sea_level": 1033.15,
+          "temp": 271.543,
+          "temp_kf": 0,
+          "temp_max": 271.543,
+          "temp_min": 271.543,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "n",
+        },
+        "weather": Array [
+          Object {
+            "description": "clear sky",
+            "icon": "01n",
+            "id": 800,
+            "main": "Clear",
+          },
+        ],
+        "wind": Object {
+          "deg": 24.5037,
+          "speed": 3.01,
+        },
+      }
+    }
+    key="forecast-6"
+    onClick={[Function]}
+  />
+  <ForecastCard
+    forecast={
+      Object {
+        "clouds": Object {
+          "all": 0,
+        },
+        "dt": 1544000400,
+        "dt_txt": "2018-12-05 09:00:00",
+        "main": Object {
+          "grnd_level": 1029.65,
+          "humidity": 100,
+          "pressure": 1029.65,
+          "sea_level": 1033.13,
+          "temp": 270.805,
+          "temp_kf": 0,
+          "temp_max": 270.805,
+          "temp_min": 270.805,
+        },
+        "rain": Object {},
+        "sys": Object {
+          "pod": "n",
+        },
+        "weather": Array [
+          Object {
+            "description": "clear sky",
+            "icon": "01n",
+            "id": 800,
+            "main": "Clear",
+          },
+        ],
+        "wind": Object {
+          "deg": 37.0033,
+          "speed": 3.12,
+        },
+      }
+    }
+    key="forecast-7"
+    onClick={[Function]}
+  />
+</ReactOwlCarousel>
+`;

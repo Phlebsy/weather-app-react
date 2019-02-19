@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ForecastCard /> matches the snapshot 1`] = `
+<div
+  className="d-flex flex-column align-items-center py-3 bg-warning "
+>
+  <i
+    className="fas fa-sun"
+  />
+  <p
+    className="m-0"
+  >
+    38
+    °
+  </p>
+  <p
+    className="m-0"
+  >
+    6:15
+  </p>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> matches the snapshot 1`] = `
+<div
+  className="searchbar container d-flex justify-content-center my-2"
+>
+  <label
+    className="pr-2 font-weight-bold"
+    htmlFor="searchInput"
+  >
+    City:
+     
+  </label>
+  <input
+    name="searchInput"
+    onChange={[Function]}
+    type="text"
+    value="New York, NY"
+  />
+  <button
+    className="btn-primary"
+    onClick={[Function]}
+  >
+    Go
+  </button>
+</div>
+`;
